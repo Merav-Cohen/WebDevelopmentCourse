@@ -1,0 +1,42 @@
+body {
+    background: #4FB9FF;
+}
+
+#fishdiv {
+    position: relative;
+}
+
+.fish {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    animation: swim 20s, bounce 2s infinite;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes swim {
+    0% {
+        margin-right: -210px
+    }
+
+    100% {
+        margin-right: 100%;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
