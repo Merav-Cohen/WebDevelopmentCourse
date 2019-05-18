@@ -47,7 +47,7 @@ li {
     font-size: 28px;
     padding: 10px 50px;
     list-style: none;
-    background-image: url("/images/check-box.png");
+    background-image: url("../images/check-box.png");
     background-size: 5%;
     background-position: right center;
     background-repeat: no-repeat;
