@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Alef&display=swap');
+
+body 
+{
+    direction:rtl;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, li, input, td, a {
+    font-family: 'Alef', sans-serif;
+}
+
+h1, h2, h3, h4, a {
+    color: white;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+h4 {
+    font-size: 26px;
+    padding-top: 10px;
+}
+
+ul {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+li {
+    font-size: 28px;
+    padding: 10px 50px;
+    list-style: none;
+    background-image: url("images/check-box.png");
+    background-size: 5%;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+a {
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+header {
+    height: 200px;
+    background-image: url("images/byOferAmir.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -250px;
+}
+
+#about {
+    height: 350px;
+}
+
+#details {
+    width: 55%;
+    height: 100%;
+    float: right;
+    background-color: white;
+}
+
+#theform {
+    width: 45%;
+    height: 100%;
+    margin-right: 55%;
+    background-color: #242738;
+}
+
+input {
+    width: 90%;
+    padding: 5px 0;
+    margin: 10px 20px;
+    text-indent: 10px;
+    font-size: 24px;
+}
+
+#send {
+    background-color: #BEC4B3;
+}
+
+    #send:hover {
+        background-color: #549D9D;
+        color: white;
+    }
+
+#studies {
+    height: 300px;
+    background-color: #549D9D;
+}
+
+table {
+    margin: 20px auto;
+}
+
+td {
+    padding: 0 10px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+}
+
+.tablepic {
+    margin: 5px auto;
+    padding: 10px 40px;
+}
+
+#alumni {
+    height: 200px;
+    background-color: #AB4B3E;
+}
+
+#move_on {
+    height: 80px;
+    background-color: #242738;
+}
