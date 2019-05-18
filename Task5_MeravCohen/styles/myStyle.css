@@ -60,7 +60,7 @@ a {
 
 header {
     height: 200px;
-    background-image: url("images/byOferAmir.jpg");
+    background-image: url("../images/byOferAmir.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -250px;
