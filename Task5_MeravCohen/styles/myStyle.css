@@ -47,7 +47,7 @@ li {
     font-size: 28px;
     padding: 10px 50px;
     list-style: none;
-    background-image: url("images/check-box.png");
+    background-image: url("../images/check-box.png");
     background-size: 5%;
     background-position: right center;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ a {
 
 header {
     height: 200px;
-    background-image: url("images/byOferAmir.jpg");
+    background-image: url("../images/byOferAmir.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -250px;
